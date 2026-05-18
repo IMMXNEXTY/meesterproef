@@ -1,6 +1,30 @@
-from words import kies_woord
+from woordenlijst import kies_woord
+import random
 
-woord = kies_woord()
 
-print("Welkom bij Lingo!")
-print("De beginletter is:", woord[0])
+
+
+team = 1
+
+team1_score = 0
+team2_score = 0
+
+team1_rood = 0
+team2_rood = 0
+
+team1_groen = 0
+team2_groen = 0
+
+team1_fout = 0
+team2_fout = 0
+
+
+
+
+ballenbak = [
+    "groen", "groen", "groen",
+    "rood", "rood", "rood",
+    2, 4, 6, 8,
+    1, 3, 5, 7
+]
+
