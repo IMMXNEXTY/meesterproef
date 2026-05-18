@@ -107,7 +107,7 @@ while True:
         poging += 1
 
 
-
+    
 
     if goed == False:
 
@@ -119,3 +119,18 @@ while True:
         else:
             team2_fout += 1
 
+
+   
+
+    if goed == True:
+
+        print("\nBallen trekken:")
+
+        for i in range(2):
+
+            bal = random.choice(ballenbak)
+
+            print("Bal:", bal)
+
+
+            
