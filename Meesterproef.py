@@ -299,3 +299,17 @@ while True:
         break
 
 
+
+    if team == 1:
+        team = 2
+
+    else:
+        team = 1
+
+
+
+
+    opnieuw = input("\nNog een keer spelen? ja/nee ")
+
+    if opnieuw != "ja":
+        break
