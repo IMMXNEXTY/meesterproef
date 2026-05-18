@@ -198,7 +198,7 @@ while True:
                 break
 
 
-            # ================= FEATURE 14 - NUMMERBAL =================
+          
 
             else:
 
@@ -210,7 +210,7 @@ while True:
                             rij[plek] = "X"
 
 
-    # ================= FEATURE 15 - BINGOKAART TONEN =================
+ 
 
     print("\nBINGOKAART")
 
@@ -218,7 +218,7 @@ while True:
         print(rij)
 
 
-    # ================= FEATURE 16 - BINGO CONTROLEREN =================
+
 
     bingo = False
 
@@ -257,4 +257,45 @@ while True:
         bingo = True
 
 
-    
+
+
+    if team1_groen >= 3:
+        print("Team 1 wint!")
+        break
+
+    if team2_groen >= 3:
+        print("Team 2 wint!")
+        break
+
+    if team1_score >= 10:
+        print("Team 1 wint!")
+        break
+
+    if team2_score >= 10:
+        print("Team 2 wint!")
+        break
+
+    if bingo == True:
+        print("BINGO!")
+        print("Team", team, "wint!")
+        break
+
+
+
+    if team1_rood >= 3:
+        print("Team 1 verliest!")
+        break
+
+    if team2_rood >= 3:
+        print("Team 2 verliest!")
+        break
+
+    if team1_fout >= 3:
+        print("Team 1 verliest!")
+        break
+
+    if team2_fout >= 3:
+        print("Team 2 verliest!")
+        break
+
+
