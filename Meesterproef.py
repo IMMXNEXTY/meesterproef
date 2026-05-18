@@ -107,3 +107,15 @@ while True:
         poging += 1
 
 
+
+
+    if goed == False:
+
+        print("Ronde verloren!")
+
+        if team == 1:
+            team1_fout += 1
+
+        else:
+            team2_fout += 1
+
