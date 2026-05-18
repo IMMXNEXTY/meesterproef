@@ -43,4 +43,17 @@ while True:
     print("Team", team, "is aan de beurt")
 
 
+    woord = random.choice(kies_woord)
+
+    print("Beginletter:", woord[0])
+
+    poging = 1
+    goed = False
+
+    bekend = [woord[0]]
+
+    for i in range(len(woord) - 1):
+        bekend.append("_")
+
+
     
