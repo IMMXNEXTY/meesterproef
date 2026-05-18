@@ -63,3 +63,22 @@ while True:
 
         gok = input("Raad het woord: ")
 
+
+        if gok == woord:
+
+            print("Goed geraden!")
+
+            goed = True
+
+            if team == 1:
+                team1_score += 1
+                team1_fout = 0
+
+            else:
+                team2_score += 1
+                team2_fout = 0
+
+            break
+
+
+        
