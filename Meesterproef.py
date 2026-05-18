@@ -120,7 +120,7 @@ while True:
             team2_fout += 1
 
 
-   
+    
 
     if goed == True:
 
@@ -134,3 +134,27 @@ while True:
 
 
             
+
+            if bal == "groen":
+
+                if team == 1:
+                    team1_groen += 1
+
+                else:
+                    team2_groen += 1
+
+
+            
+
+            elif bal == "rood":
+
+                if team == 1:
+                    team1_rood += 1
+
+                else:
+                    team2_rood += 1
+
+                print("Rode bal! Geen tweede trek.")
+
+                break
+
