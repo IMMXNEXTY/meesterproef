@@ -56,6 +56,7 @@ while True:
         bekend.append("_")
 
 
+    
 
     while poging <= 5:
 
@@ -63,6 +64,8 @@ while True:
 
         gok = input("Raad het woord: ")
 
+
+        
 
         if gok == woord:
 
@@ -81,4 +84,26 @@ while True:
             break
 
 
-        
+     
+
+        for i in range(len(woord)):
+
+            if gok[i] == woord[i]:
+
+                print("GROEN", end=" ")
+
+                bekend[i] = gok[i]
+
+            elif gok[i] in woord:
+
+                print("GEEL", end=" ")
+
+            else:
+
+                print("FOUT", end=" ")
+
+        print()
+
+        poging += 1
+
+
