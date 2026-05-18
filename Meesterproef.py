@@ -43,7 +43,7 @@ while True:
     print("Team", team, "is aan de beurt")
 
 
-    woord = random.choice(kies_woord)
+    woord = kies_woord()
 
     print("Beginletter:", woord[0])
 
@@ -159,7 +159,7 @@ while True:
                 break
 
 
-    # ================= FEATURE 11 - BALLEN TREKKEN =================
+
 
     if goed == True:
 
@@ -172,7 +172,6 @@ while True:
             print("Bal:", bal)
 
 
-            # ================= FEATURE 12 - GROENE BAL =================
 
             if bal == "groen":
 
@@ -183,7 +182,7 @@ while True:
                     team2_groen += 1
 
 
-            # ================= FEATURE 13 - RODE BAL =================
+
 
             elif bal == "rood":
 
