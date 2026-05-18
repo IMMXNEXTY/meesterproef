@@ -25,8 +25,6 @@ ballenbak = [
 ]
 
 
-
-
 bingokaart = [
     [1, 2, 3, 4],
     [5, 6, 7, 8],
@@ -35,3 +33,14 @@ bingokaart = [
 ]
 
 
+
+while True:
+
+    print("\n================")
+    print("LINGO")
+    print("================")
+
+    print("Team", team, "is aan de beurt")
+
+
+    
