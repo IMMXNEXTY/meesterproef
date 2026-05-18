@@ -56,4 +56,10 @@ while True:
         bekend.append("_")
 
 
-    
+
+    while poging <= 5:
+
+        print("Bekend woord:", bekend)
+
+        gok = input("Raad het woord: ")
+
